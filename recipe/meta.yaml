@@ -1,13 +1,13 @@
 {% set name = "aiocron" %}
-{% set version = "1.8" %}
+{% set version = "2.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aiocron-{{ version }}.tar.gz
-  sha256: 48546513faf2eb7901e65a64eba7b653c80106ed00ed9ca3419c3d10b6555a01
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aiocron-{{ version }}.tar.gz
+  sha256: 1bb65a36aee137e8833592783956e0c7dc478bc3e9273fc2841d5d0c6045e4d2
 
 build:
   noarch: python
